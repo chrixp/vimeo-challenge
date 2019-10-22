@@ -8,8 +8,8 @@ const Arrow = styled.span`
 
 const Button = styled.button`
  position: absolute;
- height: 3em;
- top: calc(50% - 1.5em);
+ transform:translateY(-50%);
+ top: 50%;
  z-index: 4;
  outline: 0;
  background-color: transparent;
